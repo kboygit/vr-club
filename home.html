@@ -60,12 +60,6 @@
                     <li>
                         <a href="./team.html">Team</a>
                     </li>
-                    <li>
-                        <!-- Button trigger modal -->
-                        <a type="button" class="" data-toggle="modal" data-target="#exampleModalLong">
-                            Resources
-                        </a>
-                    </li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -134,6 +128,9 @@
                         Images are fed to your eyes from two small lenses.
                         Through VR you can virtually hike the Grand Canyon, tour the Louvre, experience a movie as if you are part of it, and immerse yourself in a video game without leaving your couch.
                     </p>
+                    <!-- Trigger the modal with a button -->
+                    <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Terminologies</button>
+
                 </div>
                 <div class="col-lg-5 col-lg-offset-2 col-sm-6">
                     <img class="img-responsive" src="img/ss2.png" alt="">
@@ -160,6 +157,8 @@
                         Two years later, he launched a $250,000 Kickstarter crowdfunding campaign to commercialise it – and $2.4m of pledges later, the tech industry’s interest in VR was reborn.
                         Two years after that, Facebook’s CEO, Mark Zuckerberg, liked the Rift so much he bought the company for $2bn.
                     </p>
+
+                    <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#exampleModalLong">Resources</button>
                 </div>
                 <div class="col-lg-5 col-sm-pull-6  col-sm-6">
                     <img class="img-responsive" src="img/ss4.png" alt="">
@@ -247,13 +246,6 @@
                         <li>
                             <a href="./team.html">Team</a>
                         </li>
-                        <li class="footer-menu-divider">&sdot;</li>
-                        <li>
-                            <!-- Button trigger modal -->
-                            <a type="button" class="" data-toggle="modal" data-target="#exampleModalLong">
-                                Resources
-                            </a>
-                        </li>
                     </ul>
                     <p class="copyright text-muted small">&copy; Virtual Reality Club 2017 builty by K.</p>
                 </div>
@@ -266,7 +258,7 @@
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLongTitle">Virtual Reality Resources</h5>
+                <h5 class="modal-title text-center" id="exampleModalLongTitle">Virtual Reality Resources</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                   <span aria-hidden="true">&times;</span>
                 </button>
@@ -321,6 +313,53 @@
             </div>
         </div>
     </div>
+</div>
+
+<!-- Modal for terminologies -->
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title text-center">Terminologies</h4>
+      </div>
+      <div class="modal-body">
+        <p>
+            <li>(VR) Virtual Reality: the computer-generated simulation of a three-dimensional image or environment that can be interacted with in a seemingly real or physical way by a person using special electronic equipment.</li>
+
+            <li>(AR) Augmented Reality: a technology that superimposes a computer-generated image on a user's view of the real world, thus providing a composite view. (example: Pokemon Go)</li>
+
+            <li>(MR) Mixed Reality: sometimes referred to as hybrid reality, is the merging of real and virtual worlds to produce new environments and visualizations where physical and digital objects co-exist and interact in real time.</li>
+
+            <li>(HMD) Head Mount Display: HMDs are the current form of hardware delivering VR experiences to users. It's typically goggles or a helmet of some type, the kind you strap to your face or put on your head. That's where you're viewing the VR experience.
+            Some examples include but are not limited to Samsung Gear, Sony's Playstation VR, Oculus Rift, HTC Vive, Google Daydream.</li>
+
+            <li>Head tracking: this term refers to the sensors that keep up with the movement of the user's head and move the images being displayed so that they match the position of the head. Allows you to look up, down, left, right and etc.
+            Eye tracking: Eyetracking is similar to headtracking, but instead reads the position of the users' eyes versus their head.</li>
+
+            <li>(FOV) Field of View: Field of view is the angle of degrees in a visual field. Having a higher field of view is important because it contributes to the user having a feeling of immersion in a VR experience. The viewing angle for a healthy human eye is about 200 degrees. So, the bigger that angle is, the more immersive it feels.</li>
+
+            <li>Latency: If you've ever tried a VR experience and noticed that when you turn your head, the visuals don't quite keep up, that's latency. It's unpleasant, because that's not something that happens in the real world.</li>
+
+            <li>Judder: Judder is a mixture of smearing and strobing in a HMD. Judder becomes apparent when the display is moved quickly, such as when you rapidly turn your head. The phenomenon can significantly reduce the visual quality of a VR and AR displays and cause simulator sickness. The Judder is caused by low refresh rate or high persistence of the display. Smearing occurs when each pixel moves across the retina while it is lit. After smearing, the slight jump causes strobing.</li>
+
+            <li>Refresh Rate: The refresh rate is how fast those images get updated. Higher refresh rates cut down on lag, and cutting down on lag means there's less of a chance of getting sick. It also means more responsive experiences.</li>
+
+            <li>Haptics:  In VR, that would mean users feeling like they're touching something that's not really there.</li>
+
+            <li>360º Video: There is a difference between virtual reality and 360-degree video. The latter is less immersive and typically keeps the viewer in a fixed point surrounded by roughly 360 degrees of video.</li>
+
+            <li>Stitching: Stitching is the process of taking footage from different cameras, like GoPro cameras that have been used in a 360 camera mount, and combining that footage into spherical video. The process usually involves reorienting video, placing seams, and generally editing it so that it looks like one continuous view, rather than a patchwork of angles.</li>
+        </p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
 </div>
 
     <!-- jQuery -->
